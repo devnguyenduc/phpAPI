@@ -100,7 +100,7 @@
 			echo $json;
 			// json_decode($json, false, 512, JSON_UNESCAPED_UNICODE) decode có utf-8
 
-			$file = fopen('./product/'.$_POST['_h_shozzer_product_id'].".json",w);
+			$file = fopen('../infoproduct/'.$_POST['_h_shozzer_product_id'].".json",w);
 			fwrite($file,$json);
 			fclose($file);
 		}
