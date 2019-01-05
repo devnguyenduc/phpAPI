@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Khảo sát Điện Từ Trường</title>
+		<script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<style type="text/css">
+	/* CSS styles here... */
+	</style>
+	</head>
+	<body>
+		<div> Từ trường trong thế này = 0 <span lang="latex">(\textbf{H} = curl \textbf{A}'^{(2)} = 0)</span>
+		</div>
+		
+		<div>Điện trường <strong>E</strong> = -(1/c) <strong>A</strong>'(2) trở thành:</div>
+		<div lang="latex"> \textbf{E} = \frac{2}{3 c^3} \dddot{\textbf{d}}</div>
+		
+		<div>Lực gây ra bởi từng điện tích e là <strong>f</strong> = e<strong>E</strong>:</div>
+		<div lang="latex"> \textbf{f} = \frac{2e}{3 c^3} \dddot{\textbf{d}} </div>
+		
+		<div>Tổng công từng phần gây ra theo thời gian là tổng của <strong>f.v</strong></div>
+		<div lang="latex">
+			\sum{ }_{ } \textbf{f.v} = \frac{2}{3 c^3} \dddot{\textbf{d}} . \sum{ }_{ } e \textbf{v}
+			= \frac{2}{3 c^3} \dddot{\textbf{d}} . \dot{\textbf{d}}
+			= \frac{2}{3 c^3} [ \frac{d}{dt} (\dot{\textbf{d}}.\ddot{\textbf{d}})-( \ddot{\textbf{d}})^2 ]
+		</div>
+		
+		<div>Khi ta lấy trung bình qua thời gian, số hạng thứ nhất biến mất, còn lại:</div>
+		<div lang="latex">\overline{\sum{ }_{ } \textbf{f.v}} = -\overline{\frac{2}{3 c^3} \ddot{\textbf{d}}} </div>
+		
+		<div>Ta gọi lực f sinh ra công này là là Bức xạ Damping hay còn gọi là Lực Ma sát Lorentz</div>
+		
+		<div>Tạm thời bỏ qua kí hiệu trung bình ta xét tiếp Moment quán tính M của lực này, lấy đạo hàm theo thời gian cho Moment quán tính M </div>
+		<div lang="latex">
+			\dot{\textbf{M}} = \sum{ }_{ }\textbf{r x f} = \frac{2}{3 c^3} \sum{ }_{ }e\textbf{r}\times \dddot{\textbf{d}} = \frac{2}{3 c^3} \textbf{d} \times \dddot{\textbf{d}}.
+		</div>
+		
+		<div>Tiếp túc phép tính trung bình thời gian ta viết lại Moment quán tính M như sau:</div>
+		<div lang="latex">
+			\overline{\frac{d\textbf{M}}{dt}} = -\frac{2}{3 c^3}\overline{\dot{\textbf{d}}\times \ddot{\textbf{d}}}
+		</div>
+			 		
+	</body>
+	
+</html>
